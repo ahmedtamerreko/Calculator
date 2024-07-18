@@ -1,0 +1,86 @@
+body {
+   background-color: wheat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container {
+   margin-left: 150px;
+   display: flex;
+   flex-direction: column;
+   height: 600px;
+   width: 400px;
+   background-color: blue;
+   border-radius: 50px;
+
+}
+
+.screen {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 130px;
+   width: 100%;
+}
+
+.buttonsContainer {
+   display: flex;
+   flex-direction: column;
+   height: 70%;
+   width: 100%;
+   background-color: red;
+   justify-content: flex-end;
+   border-radius: 50px;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   background-color: red;
+   border-radius: 50px;
+}
+
+button {
+   width: 120px;
+   font-weight: bold;
+   background-color: bisque;
+   border: 2px solid red;
+   border-radius: 50px;
+   margin: 10px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: yellow;
+}
+
+button[disabled] {
+   background-color: bisque;
+   border: 2px solid red;
+}
+
+.opeDisplay {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.displayContainer {
+   width: 350px;
+   font-size: 40px;
+   background-color: whitesmoke;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.display {
+   width: 350px;
+   height: 90px;
+   font-size: 40px;
+   word-wrap: break-word;
+   overflow: hidden;
+}
