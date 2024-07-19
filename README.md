@@ -1,2 +1,2 @@
 # Calculator
-Live Server:https://ahmedtamerreko.github.io/Calculator/
+[Live Demo](https://ahmedtamerreko.github.io/Calculator/)
